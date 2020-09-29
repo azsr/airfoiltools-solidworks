@@ -6,7 +6,7 @@ This overwrites the "Parser" table on airfoiltools, so be careful!
 ## Steps
 
 * Have Tampermonkey (Chrome), Greasemonkey (Firefox), or your favorite userscript manager installed.
-* Create a blank script and copy-and-paste the source file in this in.
+* Load airfoiltools-solidworks.js into your userscript manager.
 * Open up airfoiltools, find your favorite airfoil/aerofoil, and copy the "Solidworks" data into a .txt file.
 
 ## Future development
