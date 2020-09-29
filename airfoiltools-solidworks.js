@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Airfoil for Solidworks
-// @version      20.02
+// @version      20.03
 // @description  Converts the "Dat file" textbox into a copy-and-pastable Solidworks-compatible version, overwriting the "Parser" box
 // @author       David Wang (wang.dav@northeastern.edu)
 // @match        http://airfoiltools.com/airfoil/details?airfoil=*
@@ -17,6 +17,7 @@
         var datarr = dat.split("\n");
         // Remove header text
         datarr.splice(0,1);
+        datarr.splice(-1,1);
         dat = "";
         // Figure out if the data is indented
         var offset = 0;
